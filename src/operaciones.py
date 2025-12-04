@@ -10,5 +10,5 @@ def multiplicar(a, b):
 def dividir(a, b):
  """Devuelve la división de a entre b."""
  if b == 0:
- raise ValueError("No se puede dividir entre cero.")
+    raise ValueError("No se puede dividir entre cero.")
  return a / b
