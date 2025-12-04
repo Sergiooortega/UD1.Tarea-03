@@ -33,12 +33,15 @@ def main():
  b = pedir_numero("Introduce el segundo número: ")
  try:
  print(f"Resultado: {dividir(a, b)}")
- except ValueError as e:
+        except ValueError as e:
  print(f"Error: {e}")
- elif opcion == "5":
+        elif opcion == "5":
  print("Saliendo del programa...")
  break
  else:
- print("Opción no válida. Inténtalo de nuevo.")
+    print("Opción no válida. Inténtalo de nuevo.")
 if __name__ == "__main__":
  main()
+
+ #actualizacion hecha por Moises Martin
+
